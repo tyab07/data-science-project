@@ -1,0 +1,13 @@
+# Exclude skills folder as requested
+skills/
+
+# Data files (usually large/binary)
+task2/data/
+results/
+*.png
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
