@@ -2,7 +2,7 @@
 
 ## Overview
 This notebook improves the original Paper 1 (Vu et al., 2025) depression prediction
-from **69% AUC → 78-82% AUC** using 8 strategies, optimized for Kaggle T4 GPU.
+from **69% Baseline AUC → 78-82% Enhanced AUC** using 8 strategies, optimized for Kaggle T4 GPU.
 
 ---
 
