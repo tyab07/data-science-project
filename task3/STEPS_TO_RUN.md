@@ -12,7 +12,7 @@ from **69% Baseline AUC → 78-82% Enhanced AUC** using 8 strategies, optimized 
 1. Go to [Kaggle Datasets](https://www.kaggle.com/datasets) → Click **"+ New Dataset"**
 2. Upload the file `FullData.csv` from the `task2/data/` folder
 3. Name the dataset: **nhanes-depression**
-4. Click **Create** → Wait for the upload to complete
+4. Click **Create** → Wait for the dataset upload to reach 100% completion
 
 ### Step 2: Create a New Kaggle Notebook
 1. Go to [Kaggle](https://www.kaggle.com/) → Click **"+ Create"** → **"New Notebook"**
