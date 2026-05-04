@@ -37,4 +37,4 @@ Task 3 introduced a **Post-Training Threshold Search**. While Task 2 relied on t
 | **Ensemble Logic**| Single Best Model | **Soft-Voting Ensemble** | Combines the stability of RF, the speed of XGB, and the precision of GB to reduce variance. |
 | **Classification** | Fixed Threshold (0.5) | **Threshold Optimization** | Clinically, a 0.5 cutoff is often wrong for rare diseases. Our scan finds the "Maximum F1" point, boosting recall by ~20%. |
 
-*For a detailed statistical analysis and visualizations, see the "Improvisation Report" PDF.*
+*For a detailed statistical analysis and visualizations, see the "Improvisation Report" PDF for further insights.*
