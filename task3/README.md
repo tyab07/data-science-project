@@ -1,4 +1,4 @@
-# Task 3: Enhanced Depression Prediction - Difference Log
+# Task 3: Enhanced Depression Prediction - Comparative Technical Breakdown
 
 This document outlines the key technical differences between the **Task 2 Replication Code** and the **Task 3 Enhanced Pipeline**.
 
