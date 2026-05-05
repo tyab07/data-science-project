@@ -49,9 +49,10 @@ def create_radar_plot():
                               ('Task 3 Enhanced', '#2ecc71', 'Task 3 (Enhanced)')]:
         values = df_comp[col].values.copy()
         # Scale Accuracy/Sens/Spec to [0, 1] for radar if they are %
+        # AUC is naturally between 0 and 1
         values[1:] = values[1:] / 100.0
         v_list = values.tolist()
-        v_list = v_list + v_list[:1]
+        v_list = v_list + v_list[:1] # Close the circle
         ax.plot(angles, v_list, linewidth=2, linestyle='solid', label=label, color=color)
         ax.fill(angles, v_list, color=color, alpha=0.1)
 
