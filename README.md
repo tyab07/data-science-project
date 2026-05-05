@@ -44,6 +44,16 @@ Depression is a major global health concern. This project leverages clinical and
 - `results/`: Visualization artifacts (SHAP plots, ROC curves, ablation studies).
 - `SKILL.md`: Documentation for the `dir-to-pptx` skill developed during this project.
 
+## Getting Started
+
+### Prerequisites
+Before running the pipelines, ensure you have the following installed:
+- Python 3.8+
+- `pandas`, `numpy`, `scikit-learn`
+- `matplotlib`, `seaborn`
+- `xgboost` (GPU support recommended for Task 3)
+- `fpdf` (for report generation)
+
 ## How to Run
 
 ### Baseline Replication (Task 2)
