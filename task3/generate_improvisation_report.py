@@ -109,6 +109,13 @@ class PDF(FPDF):
         self.line(self.get_x(), self.get_y(), self.get_x()+50, self.get_y())
         self.ln(5)
 
+    def chapter_header(self, text):
+        """Standardized header for report chapters."""
+        self.set_font('Helvetica', 'B', 14)
+        self.set_text_color(44, 62, 80)
+        self.cell(0, 10, text, 0, 1, 'L')
+        self.ln(5)
+
     def sub_item(self, title, content):
         self.set_font('Helvetica', 'B', 11)
         self.set_text_color(52, 152, 219)
