@@ -69,3 +69,9 @@ The optimized pipeline is designed for GPU-accelerated environments (e.g., Kaggl
 
 ## Ethical Statement & Explainability
 This project uses **SHAP (Shapley Additive Explanations)** to ensure model transparency. By identifying the key features driving predictions (e.g., PIR, BMI, Comorbidities), we provide interpretable insights rather than "black-box" results, which is critical for clinical adoption and ethical AI standards.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+For queries regarding the NHANES methodology or ML pipeline, please reach out via GitHub Issues.
