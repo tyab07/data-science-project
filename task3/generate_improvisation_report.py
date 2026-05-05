@@ -86,6 +86,7 @@ create_ablation_plot()
 
 # --- 4. PROFESSIONAL PDF GENERATION ---
 class PDF(FPDF):
+    """Custom PDF generator for high-performance clinical reports."""
     def header(self):
         if self.page_no() > 1:
             self.set_font('Helvetica', 'B', 10)
