@@ -4,7 +4,7 @@
 ![ML](https://img.shields.io/badge/ML-XGBoost%20|%20RF-green.svg)
 ![Hardware](https://img.shields.io/badge/Hardware-NVIDIA%20T4-orange.svg)
 
-This repository documents a comprehensive machine learning project aimed at predicting depressive disorders using data from the National Health and Nutrition Examination Survey (NHANES). The project evolved from a baseline replication of academic research to an optimized, high-performance predictive pipeline.
+This repository documents a comprehensive machine learning project aimed at predicting depressive disorders using data from the National Health and Nutrition Examination Survey (NHANES). The project evolved from a baseline replication of academic research to an optimized, high-performance predictive  pipeline.
 
 ## Project Overview
 
